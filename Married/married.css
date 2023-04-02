@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(209, 150, 150, 0.75),rgba(161, 92, 92, 0.75))
+    ,url(BACKround.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.narbar{
+    width: 85%;
+    
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.narbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.narbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+
+    
+}
+.narbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left:0;
+    bottom: -9px;
+    transition: 0.5s;
+}
+.narbar ul li:hover::after{
+    width: 100%;
+    ;
+}
+
+.vn{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    font-size: 20px;
+}
+.image{
+    position: relative;
+    display: flex;
+}
+.image .image1{
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius:50% ;
+    margin: 20px;
+    box-shadow: 4px 4px 16px 4px rgba(133, 111, 111, 0.3); 
+ }
+ .image .image2{
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius:50% ;
+    margin: 20px;
+    box-shadow: 4px 4px 16px 4px rgba(133, 111, 111, 0.3); 
+
+ }
+ .image .image3{
+    width: 400px;
+    height: 400px;
+    float: right;
+    border-radius:50% ;
+    margin: 10px;
+    box-shadow: 4px 4px 16px 4px rgba(133, 111, 111, 0.3); 
+    
+    
+ }
+ 
+ .p1{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 40%;
+    border-radius:50px ;
+    padding: 20px;
+    font-size: 20px;
+ }
+ .vn h2{
+    margin-left: -35px;
+ }

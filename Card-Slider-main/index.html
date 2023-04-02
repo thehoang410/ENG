@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/blog.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+  <div class="banner">
+    <div class="narbar">
+        <ul>
+            <li><a href="/blog.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="/Married/married.html">Married</a></li>
+            <li><a href="">#</a></li>
+        </ul>
+      </div>
+      <section class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="images/Do.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Nguyễn Thế Hoàng</span>
+              <span class="card__name">Nhóm 4</span>
+              <p class="card__text">46.01.104.057</p>
+              <button class="card__btn">View More</button>
+            </div>
+          </div>
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="images/Den.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Võ Trần An Muôn </span>
+              <span class="card__name">Nhóm 4</span>
+              <p class="card__text">47.01.902.102</p>
+              <button class="card__btn">View More</button>
+            </div>
+          </div>
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="images/Hong.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Nguyễn Thị Tường Vy</span>
+              <span class="card__name">Nhóm 4</span>
+              <p class="card__text">46.01.902.255</p>
+              <button class="card__btn">View More</button>
+            </div>
+          </div>
+    
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="images/Vang.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Hồ Thị Hồng Loan</span>
+              <span class="card__name">Nhóm 4</span>
+              <p class="card__text">44.01.902.018</p>
+              <button class="card__btn">View More</button>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="card__image">
+              <img src="images/Xanh.jpg" alt="card image">
+            </div>
+    
+            <div class="card__content">
+              <span class="card__title">Dương Khải Hưng</span>
+              <span class="card__name">Nhóm 4</span>
+              <p class="card__text">46.01.102.017</p>
+              <button class="card__btn">View More</button>
+            </div>
+          </div>  
+    
+        </div>
+      </section>
+    
+
+  </div>
+
+
+  
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
